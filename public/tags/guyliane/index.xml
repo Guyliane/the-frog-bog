@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guyliane on The Frog Blog</title>
+    <link>http://example.org/tags/guyliane/</link>
+    <description>Recent content in guyliane on The Frog Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jul 2022 10:32:23 +0000</lastBuildDate><atom:link href="http://example.org/tags/guyliane/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Article frontmatter</title>
+      <link>http://example.org/2022-07-21-article-frontmatter/</link>
+      <pubDate>Thu, 21 Jul 2022 10:32:23 +0000</pubDate>
+      
+      <guid>http://example.org/2022-07-21-article-frontmatter/</guid>
+      <description> Bonjour bonjour ceci est un test </description>
+    </item>
+    
+    <item>
+      <title>Trees by Joyce Kilmer</title>
+      <link>http://example.org/trees-by-joyce-kilmer/</link>
+      <pubDate>Wed, 20 Jul 2022 23:39:17 +0200</pubDate>
+      
+      <guid>http://example.org/trees-by-joyce-kilmer/</guid>
+      <description>I think that I shall never see A poem lovely as a tree.
+A tree whose hungry mouth is prest Against the earth’s sweet flowing breast;
+A tree that looks at God all day, And lifts her leafy arms to pray;
+A tree that may in Summer wear A nest of robins in her hair;
+Upon whose bosom snow has lain; Who intimately lives with rain.
+Poems are made by fools like me, But only God can make a tree.</description>
+    </item>
+    
+    <item>
+      <title>That It Will Never Come Again by Emily Dickinson</title>
+      <link>http://example.org/that-it-will-never-come-again-by-emily-dickinson/</link>
+      <pubDate>Wed, 20 Jul 2022 23:38:36 +0200</pubDate>
+      
+      <guid>http://example.org/that-it-will-never-come-again-by-emily-dickinson/</guid>
+      <description>That it will never come again Is what makes life so sweet. Believing what we don’t believe Does not exhilarate.
+That if it be, it be at best An ablative estate &amp;ndash; This instigates an appetite Precisely opposite.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<div class="flex items-center">
+{{ $dateTime := .PublishDate.Format "2006-01-02" }}
+{{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
+<i data-feather="calendar"></i> 
+<time class="p-1" datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> <br>
+</div>
+
+<div class="flex items-center">
+{{ with .Params.tags }}
+  <i data-feather="tag"></i>
+  {{ range . }}
+  {{ $href := print (relURL "tags/") (urlize .) }}
+  <a href="{{ $href }}" class="inline-flex items-center justify-center p-1 text-base font-medium leading-6 text-gray-600 whitespace-no-wrap bg-white border border-gray-200 rounded-md shadow-sm hover:bg-black hover:text-white focus:outline-none focus:shadow-none">
+    {{ . }}
+  </a>
+  {{ end }}
+{{ end }}
+</div>
+
+

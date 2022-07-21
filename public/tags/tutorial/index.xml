@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorial on The Frog Blog</title>
+    <link>http://example.org/tags/tutorial/</link>
+    <description>Recent content in tutorial on The Frog Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Jul 2022 11:45:57 +0000</lastBuildDate><atom:link href="http://example.org/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install TailwindCSS with PostCSS v3</title>
+      <link>http://example.org/2022-07-21-install-tailwindcss-with-postcss/</link>
+      <pubDate>Thu, 21 Jul 2022 11:45:57 +0000</pubDate>
+      
+      <guid>http://example.org/2022-07-21-install-tailwindcss-with-postcss/</guid>
+      <description>Hi 👋
+Today we will install TailwindCSS to your existing Project with the PostCSS method. Step by step explained in a simple and detailed way
+What is PostCSS ?
+PostCSS is a tool that will allow you to use plugins so it can help you during your developments for exemple it will automatically add &amp;ldquo;autoprefixer&amp;rdquo; to avoid any compatibility problem
+Step 1 First, go to the tailwindCSS website. At the time of writing the article we have the version : v3.</description>
+    </item>
+    
+  </channel>
+</rss>

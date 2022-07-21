@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "nav" . }}
+
+<h1 class="text-5xl font-extrabold">{{ .Title }}</h1>
+
+{{ range .Data.Terms.Alphabetical }}
+<p class="mt-7">
+    <a href="{{ .Page.Permalink }}" class="relative inline-block px-4 py-2 font-medium group">
+        <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+        <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+        <span class="relative text-white group-hover:text-white font-extrabold bg-black p-1 rounded-sm">{{ .Count }}</span>
+        <span class="relative text-black group-hover:text-white">{{ .Page.Title }}</span>
+    </a>
+</p>
+{{ end }} {{ end }}
+
+
+
+
