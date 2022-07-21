@@ -1,4 +1,4 @@
-baseURL = 'thefrogblog.netlify.app'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'The Frog Blog'
 
