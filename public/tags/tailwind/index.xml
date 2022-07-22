@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tailwind on The Frog Blog</title>
-    <link>http://example.org/tags/tailwind/</link>
+    <link>/tags/tailwind/</link>
     <description>Recent content in tailwind on The Frog Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jul 2022 11:45:57 +0000</lastBuildDate><atom:link href="http://example.org/tags/tailwind/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 11:45:57 +0000</lastBuildDate><atom:link href="/tags/tailwind/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Install TailwindCSS with PostCSS v3</title>
-      <link>http://example.org/2022-07-21-install-tailwindcss-with-postcss/</link>
+      <link>/2022-07-21-install-tailwindcss-with-postcss/</link>
       <pubDate>Thu, 21 Jul 2022 11:45:57 +0000</pubDate>
       
-      <guid>http://example.org/2022-07-21-install-tailwindcss-with-postcss/</guid>
+      <guid>/2022-07-21-install-tailwindcss-with-postcss/</guid>
       <description>Hi 👋
 Today we will install TailwindCSS to your existing Project with the PostCSS method. Step by step explained in a simple and detailed way
 What is PostCSS ?
