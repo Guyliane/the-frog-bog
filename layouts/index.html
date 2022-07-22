@@ -1,38 +1,44 @@
 {{ define "main" }}
 
-<div class="text-center">
-  <div class="mt-8">
-    <img src="/FrogLogo.svg" alt="Frog logo" class="w-28 mx-auto" />
-  </div>
-  {{ partial "nav" . }}
-  <h1 class="text-5xl font-extrabold text-center mt-3">{{.Title}}</h1>
-  <p class="font-bold text-center">{{.Site.Params.homeText | markdownify}}</p>
-
-  <p class="mt-5">
-    Hi! 👋<br />
-    I'm Guyliane, I've been passionate about development for so long that I've
-    spent many sleepless nights exploring our favorite site like Stack Overflow
-    to get unstuck. I've been able to increase my skills thanks to all this and
-    I'm still learning a lot. So I decided to open my Blog to share with you all
-    my tips all my problems all my findings so that you too can sleep a little
-    more! 🤞
-  </p>
-
-  <h2 class="text-3xl font-extrabold mt-10">Check my last post :</h2>
-  {{ range ( where .Site.RegularPages "Type" "blog" | first 3 ) }}
-  <div class="flex justify-center mt-5">
-    <a href="{{ .Permalink }}" class="relative inline-block px-4 py-2 font-medium group ">
-      <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-      <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-      <span class="relative text-black group-hover:text-white">{{ .Title }}</span>
-      <time class="relative text- font-extrabold group-hover:text-white">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-    </a>
-  </div> 
-    
-  
-  {{ end }}
+<div class="mt-8">
+  <img src="/FrogLogo.svg" alt="Frog logo" class="w-28 mx-auto" />
 </div>
+{{ partial "nav" . }}
+<h1 class="text-5xl font-extrabold text-center mt-3">{{.Title}}</h1>
+<p class="font-bold text-center">{{.Site.Params.homeText | markdownify}}</p>
 
-{{end}}
+<p class="font-extrabold mt-10">INTRODUCING</p>
+<h2 class="text-3xl font-extrabold">What is The Frog Blog?</h2>
+<hr />
 
+<p class="mt-5">
+  Hi! 👋 I'm Guyliane, I've been passionate about development for so long that
+  I've spent many sleepless nights exploring our favorite site like Stack
+  Overflow to get unstuck. I've been able to increase my skills thanks to all
+  this and I'm still learning a lot. So I decided to open my
+  <strong>SIMPLE</strong> Blog to share with you all my tips all my problems all
+  my findings so that you too can sleep a little more! 🤞
+</p>
 
+<p class="font-extrabold mt-10">STAY UP TO DATE</p>
+<h2 class="text-3xl font-extrabold">Check my last post :</h2>
+<hr />
+{{ range ( where .Site.RegularPages "Type" "blog" | first 3 ) }}
+<div class="flex justify-center mt-5">
+  <a
+    href="{{ .Permalink }}"
+    class="relative inline-block px-4 py-2 font-medium group"
+  >
+    <span
+      class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"
+    ></span>
+    <span
+      class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"
+    ></span>
+    <span class="relative text-black group-hover:text-white">{{ .Title }}</span>
+    <time class="relative text- font-extrabold group-hover:text-white"
+      >{{ .Date.Format "Mon, Jan 2, 2006" }}</time
+    >
+  </a>
+</div>
+{{ end }} {{end}}
