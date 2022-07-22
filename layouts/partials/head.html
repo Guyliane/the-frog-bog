@@ -7,8 +7,9 @@
     content="The Frog Blog is a place where you can find tips, tutorials and articles about the new tools that surround the world of developers 🐸"
   />
   <link rel="icon" type="image/x-icon" href="/FrogLogo.ico" />
+  {{ hugo.Generator }}
   <link rel="stylesheet" href="/output.css" />
-  {{ hugo.Generator }} {{ $title := print .Title " | " .Site.Title }} {{ if
-  .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  {{ $title := print .Title " | " .Site.Title }} {{ if .IsHome }}{{ $title =
+  .Site.Title }}{{ end }}
   <title>{{.Title}}</title>
 </head>
