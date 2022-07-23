@@ -5,7 +5,7 @@
 
 {{ partial "searchbar" . }}
 
-{{ range .Pages.ByPublishDate.Reverse }}
+{{ range .Paginator.Pages.ByPublishDate.Reverse }}
 <p class="mx-auto">
   <div class="border-4 border-black rounded-sm p-2 mb-5 mt-5 hover:bg-black transition duration-300 ease-in-out hover:text-white">
   <a class="text-3xl font-bold mt-5" href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -14,6 +14,12 @@
   </div>
 </div>
 </p>
+{{ end }}
+{{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}" class="bg-black text-white font-extrabold p-2">  Prev </a>
+{{ end }}
+{{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}" class="bg-black text-white font-extrabold p-2">  Next </a>
 {{ end }}
 <script src="/search.js"></script>
 {{end}}

@@ -1,6 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'The Frog Blog'
+paginate = 3
 
 # Markdown renderer
 [markup]
