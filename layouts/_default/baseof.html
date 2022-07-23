@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   {{ partial "head" . }}
-  <body>
-    <div class="max-w-5xl mx-auto px-4">
+  <body class="h-full">
+    <div class="max-w-5xl mx-auto px-4 h-full">
       <main id="main">{{ block "main" . }}{{ end }}</main>
     </div>
+    {{ partial "footer" . }} 
     {{ partial "script" . }}
   </body>
 </html>
