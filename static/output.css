@@ -1306,6 +1306,10 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
 .font-extrabold {
   font-weight: 800;
 }
@@ -1477,6 +1481,15 @@ video {
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .sm\:font-extrabold {
+    font-weight: 800;
   }
 }
 @media (min-width: 768px) {
