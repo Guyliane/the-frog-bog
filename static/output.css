@@ -1177,6 +1177,18 @@ video {
 .text-justify {
   text-align: justify;
 }
+.font-\[\'\'\] {
+  font-family: '';
+}
+.font-\[\'Modak\'\] {
+  font-family: 'Modak';
+}
+.font-\[extrabold\] {
+  font-family: extrabold;
+}
+.font-\[\'Bowlby-One\'\] {
+  font-family: 'Bowlby-One';
+}
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -1192,6 +1204,14 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 .font-extrabold {
   font-weight: 800;

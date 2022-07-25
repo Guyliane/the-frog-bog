@@ -2,6 +2,7 @@ baseURL = '/'
 languageCode = 'en-us'
 title = 'The Frog Blog'
 paginate = 3
+disqusShortname = 'https-thefrogblog-netlify-app'
 
 # Markdown renderer
 [markup]
