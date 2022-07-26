@@ -63,5 +63,6 @@
     "tuto",
     "vie"
   ],
-  "frontMatter.taxonomy.categories": []
+  "frontMatter.taxonomy.categories": [],
+  "frontMatter.content.snippets": {}
 }
