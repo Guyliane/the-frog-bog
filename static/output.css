@@ -1040,17 +1040,26 @@ video {
 .mt-7 {
   margin-top: 1.75rem;
 }
-.mt-24 {
-  margin-top: 6rem;
-}
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-24 {
+  margin-top: 6rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+.mt-20 {
+  margin-top: 5rem;
+}
+.mb-20 {
+  margin-bottom: 5rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .block {
   display: block;
@@ -1076,17 +1085,14 @@ video {
 .w-full {
   width: 100%;
 }
+.w-32 {
+  width: 8rem;
+}
 .w-9 {
   width: 2.25rem;
 }
 .w-10 {
   width: 2.5rem;
-}
-.w-40 {
-  width: 10rem;
-}
-.w-32 {
-  width: 8rem;
 }
 .max-w-5xl {
   max-width: 64rem;
@@ -1094,11 +1100,11 @@ video {
 .max-w-7xl {
   max-width: 80rem;
 }
-.max-w-xl {
-  max-width: 36rem;
-}
 .max-w-2xl {
   max-width: 42rem;
+}
+.max-w-xl {
+  max-width: 36rem;
 }
 .translate-x-1 {
   --tw-translate-x: 0.25rem;
@@ -1142,11 +1148,6 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.25rem * var(--tw-space-x-reverse));
   margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .rounded-sm {
   border-radius: 0.125rem;
@@ -1200,10 +1201,6 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1228,17 +1225,13 @@ video {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 .font-extrabold {
   font-weight: 800;
@@ -1255,17 +1248,8 @@ video {
 .leading-6 {
   line-height: 1.5rem;
 }
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
 .tracking-tighter {
   letter-spacing: -0.05em;
-}
-.tracking-tight {
-  letter-spacing: -0.025em;
-}
-.-tracking-tighter {
-  letter-spacing: 0.05em;
 }
 .text-red-600 {
   --tw-text-opacity: 1;
@@ -1378,6 +1362,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
+
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
 
   .sm\:flex-row {
     flex-direction: row;
