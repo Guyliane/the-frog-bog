@@ -1049,18 +1049,6 @@ video {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mt-20 {
-  margin-top: 5rem;
-}
-.mb-20 {
-  margin-bottom: 5rem;
-}
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-.mb-16 {
-  margin-bottom: 4rem;
-}
 .block {
   display: block;
 }
@@ -1251,6 +1239,10 @@ video {
 .tracking-tighter {
   letter-spacing: -0.05em;
 }
+.text-lime-600 {
+  --tw-text-opacity: 1;
+  color: rgb(101 163 13 / var(--tw-text-opacity));
+}
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
@@ -1362,10 +1354,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
-
-  .sm\:mt-10 {
-    margin-top: 2.5rem;
-  }
 
   .sm\:flex-row {
     flex-direction: row;
