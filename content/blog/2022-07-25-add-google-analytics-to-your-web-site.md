@@ -10,6 +10,9 @@ tags:
   - tutorial
   - analytics
 categories: ""
+keywords:
+  - analytics
+  - google
 ---
 
 Hi 👋, today I'm showing you how to set up google analytics on your website. 

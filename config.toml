@@ -56,6 +56,11 @@ googleAnalytics = 'G-CFLRBM6VSG'
 [permalinks]
   blog = "/:filename/"
 
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [params]
   dateFormat = "Jan 2, 2006"
   homeText = "I share my adventures hoping that you can sleep"

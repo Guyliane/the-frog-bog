@@ -1,9 +1,7 @@
 ---
 title: Install TailwindCSS with PostCSS v3
-description: >-
-  Hi
-  Today we will install TailwindCSS to your existing Project with the PostCSS method.
-  Step by step explained in a simple and detailed way
+description: Hi Today we will install TailwindCSS to your existing Project with the PostCSS
+  method. Step by step explained in a simple and detailed way
 date: 2022-07-21T11:45:57.655Z
 preview: ""
 draft: ""
@@ -12,7 +10,11 @@ tags:
   - tailwind
   - tutorial
 categories: ""
-keywords: []
+keywords:
+  - css
+  - tailwind
+  - tailwindcss
+  - postcss
 lastmod: 2022-07-21T11:52:11.889Z
 ---
 
